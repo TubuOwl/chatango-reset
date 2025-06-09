@@ -22,12 +22,7 @@ project/
 
 ## 🚀 Cara Pakai
 
-1. Jalankan `main.py`:
-
-   ```bash
-   python main.py
-````
-
+1. Jalankan `main.py`: python main.py
 2. Masukkan username dan password Chatango Anda saat diminta.
 3. Tautan verifikasi akan diambil otomatis dari email sementara.
 4. Password sementara juga akan diambil otomatis dari email.
