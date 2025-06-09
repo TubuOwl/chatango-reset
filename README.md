@@ -14,8 +14,6 @@ Skrip ini secara otomatis membantu Anda untuk mengganti password akun **Chatango
 
 ## 🗂 Struktur File
 
-``` markdown
-
 project/
 ├── main.py                # Entry point program
 ├── chatngo/
