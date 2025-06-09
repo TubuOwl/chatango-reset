@@ -1,44 +1,43 @@
-```markdown
+Berikut adalah versi terjemahan bahasa Inggris dari README yang kamu berikan, dengan struktur dan tampilan yang tetap sederhana dan konsisten untuk GitHub:
+
+````markdown
 # 🔐 Chatango Password Reset
 
-Skrip ini secara otomatis membantu Anda untuk mengganti password akun Chatango menggunakan email sementara dan otomatisasi pengambilan tautan verifikasi serta password sementara dari inbox email.
+This script automatically helps you reset your Chatango account password using a temporary email and automated retrieval of the verification link and temporary password from the inbox.
 
-## 📦 Fitur
+## 📦 Features
 
-- Membuat email sementara menggunakan [temp-mail.io API](https://temp-mail.io)
-- Mengambil tautan verifikasi dari email
-- Mengambil password sementara dari email
-- Reset password Chatango secara otomatis
+- Create a temporary email using the [temp-mail.io API](https://temp-mail.io)
+- Automatically fetch the verification link from the inbox
+- Automatically retrieve the temporary password from the inbox
+- Reset Chatango password automatically
 
-## 🗂 Struktur File
+## 🗂 Project Structure
 
 project/
-├── main.py                # Entry point program
+├── main.py                # Program entry point  
 ├── chatngo/
-│   ├── tempGo.py          # Kelas TempMailClient (temp-mail API logic)
-│   └── chReset.py         # Kelas ChatangoReset (login, update email, reset password)
+│   ├── tempGo.py          # TempMailClient class (handles temp-mail API logic)  
+│   └── chReset.py         # ChatangoReset class (login, update email, reset password)
 
-````
+## 🚀 How to Use
 
-## 🚀 Cara Pakai
+1. Run `main.py`: python main.py
+2. Enter your Chatango username and password when prompted.
+3. The verification link will be retrieved automatically from the temporary email.
+4. The temporary password will also be retrieved automatically.
+5. Enter your new password when prompted.
+6. Done! Your Chatango password has been reset.
 
-1. Jalankan `main.py`: python main.py
-2. Masukkan username dan password Chatango Anda saat diminta.
-3. Tautan verifikasi akan diambil otomatis dari email sementara.
-4. Password sementara juga akan diambil otomatis dari email.
-5. Masukkan password baru ketika diminta.
-6. Selesai! Password akun Chatango Anda telah di-reset.
+## ⚠️ Notes
 
-## ⚠️ Catatan
+* Use only for Chatango accounts that belong to you.
+* This tool requires an active internet connection.
+* Make sure the API `https://api.internal.temp-mail.io` is accessible.
 
-* Gunakan hanya untuk akun Chatango milik Anda sendiri.
-* Proyek ini memerlukan koneksi internet.
-* Pastikan API `https://api.internal.temp-mail.io` bisa diakses.
-
-## 📜 Dependensi
+## 📜 Dependencies
 
 * Python 3.6+
-* Modul:
+* Required module:
 
   * `requests`
-
