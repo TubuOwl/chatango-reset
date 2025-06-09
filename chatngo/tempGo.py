@@ -77,3 +77,5 @@ class TempMailClient:
             except Exception as e:
                 print(f"[!] Failed to read inbox: {e}")
                 time.sleep(interval)
+
+# not original made by me
