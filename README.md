@@ -1,5 +1,3 @@
-Berikut adalah versi terjemahan bahasa Inggris dari README yang kamu berikan, dengan struktur dan tampilan yang tetap sederhana dan konsisten untuk GitHub:
-
 ````markdown
 # 🔐 Chatango Password Reset
 
