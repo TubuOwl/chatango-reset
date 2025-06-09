@@ -39,6 +39,7 @@ project/
 * Required module:
 
   * `requests`
+```
 
 ## ✨ Example
 
