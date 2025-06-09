@@ -42,4 +42,4 @@ project/
 
 ## ✨ Example
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/TubuOwl/chatango-reset/blob/main/21827.png?raw=true)
