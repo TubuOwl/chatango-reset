@@ -1,7 +1,7 @@
 ```markdown
 # 🔐 Chatango Password Reset
 
-Skrip ini secara otomatis membantu Anda untuk mengganti password akun **Chatango** menggunakan email sementara dan otomatisasi pengambilan tautan verifikasi serta password sementara dari inbox email.
+Skrip ini secara otomatis membantu Anda untuk mengganti password akun Chatango menggunakan email sementara dan otomatisasi pengambilan tautan verifikasi serta password sementara dari inbox email.
 
 ## 📦 Fitur
 
@@ -46,10 +46,4 @@ project/
 * Modul:
 
   * `requests`
-
-Install dependensi dengan:
-
-```bash
-pip install requests
-```
 
