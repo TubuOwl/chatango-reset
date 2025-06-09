@@ -1,7 +1,5 @@
-Berikut adalah versi **README.md** yang sudah diformat agar tampil rapi dan konsisten saat ditampilkan di GitHub:
-
 ```markdown
-# 🔐 Chatango Password Reset Automation
+# 🔐 Chatango Password Reset
 
 Skrip ini secara otomatis membantu Anda untuk mengganti password akun **Chatango** menggunakan email sementara dan otomatisasi pengambilan tautan verifikasi serta password sementara dari inbox email.
 
@@ -55,8 +53,3 @@ Install dependensi dengan:
 pip install requests
 ```
 
-```
-
-### Siap pakai untuk GitHub
-Cukup simpan ini ke file `README.md` di root folder proyek Anda, dan GitHub akan menampilkannya dengan format yang baik secara otomatis. Jika butuh tambahan seperti badge status, lisensi, atau GIF demo, saya juga bisa bantu menambahkan.
-```
