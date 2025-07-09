@@ -1,4 +1,3 @@
-<script>
 const msg = "Today is very special. It's your big day. So... *clears throat* happy birthday to you, happy birthday to you, happy birthday to you... Rover, I hope I can sing for you on your birthday this year, then your next birthday, and then the birthday after your next birthday.";
 
 const splitIndex = msg.indexOf("Rover, I hope I can sing");
@@ -38,4 +37,3 @@ playBtn.addEventListener('click', () => {
     typeWriter(part2, textContainer, 11000, true); // append = true
   }, 18000);
 });
-</script>
