@@ -116,7 +116,7 @@
 
   <!-- Script -->
   <script>
-    const msg = "I am Yangyang, a temporary Outrider of the Midnight Rangers, responsible for detecting and investigating anomalies. The Streams have guided me to you. I have a feeling we'll be companions for many moons to come.";
+    const msg = "Today is very special. It's your big day. So... *clears throat* happy birthday to you, happy birthday to you, happy birthday to you... Rover, I hope I can sing for you on your birthday this year, then your next birthday, and then the birthday after your next birthday.";
     const audio = document.getElementById('voice');
     const playBtn = document.getElementById('playBtn');
     const bubble = document.getElementById('bubble');
