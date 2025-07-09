@@ -32,7 +32,7 @@ playBtn.addEventListener('click', () => {
   playBtn.style.display = 'none';
 
   // Bagian pertama diketik dalam 18 detik (18000ms)
-  typeWriter(firstPart, textContainer, 18000);
+  typeWriter(firstPart, textContainer, 17000);
 
   // Hentikan ketikan saat jeda (tidak perlu clearTimeout karena typing sudah selesai di detik 18)
   setTimeout(() => {
@@ -42,6 +42,6 @@ playBtn.addEventListener('click', () => {
   // Lanjutkan bagian kedua setelah jeda 2 detik (pada detik ke-20)
   setTimeout(() => {
     audio.play().catch(console.warn);
-    typeWriter(secondPart, textContainer, 9000, true); // 9 detik sisa, append = true
+    typeWriter(secondPart, textContainer, 10000, true); // 9 detik sisa, append = true
   }, 20000);
 });
