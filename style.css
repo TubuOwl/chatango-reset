@@ -1,0 +1,78 @@
+#intro-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+.circle-img {
+  width: 40vw;
+  max-width: 200px;
+  height: 40vw;
+  max-height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid navy;
+  box-shadow: 0 0 10px #0004;
+  margin-bottom: 16px;
+}
+.circle-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.speech-bubble {
+  display: none;
+  background: #fff;
+  border: 2px solid navy;
+  border-radius: 16px;
+  padding: 14px;
+  max-width: 90vw;
+  font-size: 4vw;
+  line-height: 1.5;
+  color: navy;
+  text-align: center;
+  position: relative;
+}
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 30px;
+  border: 8px solid transparent;
+  border-top-color: white;
+}
+.speech-bubble-border:after {
+  border-top-color: navy;
+  bottom: -19px;
+}
+@media (min-width: 500px) {
+  .speech-bubble {
+    font-size: 16px;
+    max-width: 400px;
+  }
+}
+#text {
+  white-space: pre-wrap;
+}
+#playBtn {
+  padding: 10px 20px;
+  background: navy;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 12px;
+}
+#playBtn:hover {
+  background: #001f4d;
+}
